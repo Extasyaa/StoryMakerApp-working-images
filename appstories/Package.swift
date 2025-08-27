@@ -7,12 +7,21 @@ let package = Package(
         .macOS(.v13)
     ],
     products: [
-        .library(name: "TaskRunner", targets: ["TaskRunner"])
+        .library(name: "TaskRunner", targets: ["TaskRunner"]),
+        .library(name: "StoryCore", targets: ["StoryCore"])
     ],
     targets: [
         .target(
             name: "TaskRunner",
             dependencies: []
+        ),
+        .target(
+            name: "StoryCore",
+            dependencies: []
+        ),
+        .testTarget(
+            name: "StoryCoreTests",
+            dependencies: ["StoryCore"]
         )
     ]
 )
