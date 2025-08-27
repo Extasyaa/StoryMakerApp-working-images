@@ -1,0 +1,46 @@
+{
+  "name": "Local Story Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "story",
+        "options": {
+          "responseData": "allEntries"
+        }
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        280,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "command": "python3",
+        "arguments": "run.py --story stories/story_template.json --out builds/episode_from_webhook"
+      },
+      "name": "ExecuteCommand",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        540,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "ExecuteCommand",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

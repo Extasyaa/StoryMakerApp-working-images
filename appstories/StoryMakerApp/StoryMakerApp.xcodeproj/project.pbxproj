@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026DC806A59A4D8597070E56 /* PublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30673014A23B40A98ABC58D5 /* PublishView.swift */; };
+		37E7CBEBD0C14D6791F7A58E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDFD280C54A96ADCC8114 /* DashboardView.swift */; };
+		38EE0C2AA0534CBE95876B9B /* StoryMakerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F355F8182F26478EB0E24B08 /* StoryMakerAppApp.swift */; };
+		45DD24F77170431BBBF326D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B8D3B4F2D4AD69474E07E /* ContentView.swift */; };
+		45E439A02E5E449D000E8DF5 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4399F2E5E449D000E8DF5 /* SettingsStore.swift */; };
+		45E439A12E5E449D000E8DF5 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4399C2E5E449D000E8DF5 /* Job.swift */; };
+		45E439A22E5E449D000E8DF5 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4399E2E5E449D000E8DF5 /* KeychainHelper.swift */; };
+		45E439A32E5E449D000E8DF5 /* JobQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4399D2E5E449D000E8DF5 /* JobQueue.swift */; };
+		45E439AB2E5E508E000E8DF5 /* TaskRunner in Frameworks */ = {isa = PBXBuildFile; productRef = 45E439AA2E5E508E000E8DF5 /* TaskRunner */; };
+		45E439AD2E5EABE0000E8DF5 /* EngineRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E439AC2E5EABD1000E8DF5 /* EngineRunner.swift */; };
+		60771942AAC44E0BAE42C16E /* AssembleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0BD2E75AAC4CDDBE05E183 /* AssembleView.swift */; };
+		A34A5F1D44794FE99D9C952D /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077393AF68F14BE08973D0D8 /* TTSView.swift */; };
+		D90E2AE87804414AA70A3823 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223BE763922744D6BCD009B7 /* SettingsView.swift */; };
+		DADF52293D984416B7CFB0A4 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634F9BB465D47F0AD515AFD /* AppCommands.swift */; };
+		FD5875BF76BD4A04AE1D78F8 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4CE93260D4F709CD8FBC4 /* ImagesView.swift */; };
+		FDC3F7DCFA2B4E698957A431 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778EAF973E24673AB267170 /* StoryView.swift */; };
+		FFBA3B458924471F89BC3F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7F77AECEDD4EB9A2D6DC60 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F6E3377B78495AB2503509 /* StoryMakerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = StoryMakerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077393AF68F14BE08973D0D8 /* TTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSView.swift; sourceTree = "<group>"; };
+		223BE763922744D6BCD009B7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2634F9BB465D47F0AD515AFD /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
+		30673014A23B40A98ABC58D5 /* PublishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishView.swift; sourceTree = "<group>"; };
+		45E4399C2E5E449D000E8DF5 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		45E4399D2E5E449D000E8DF5 /* JobQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobQueue.swift; sourceTree = "<group>"; };
+		45E4399E2E5E449D000E8DF5 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		45E4399F2E5E449D000E8DF5 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		45E439AC2E5EABD1000E8DF5 /* EngineRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineRunner.swift; sourceTree = "<group>"; };
+		4E7F77AECEDD4EB9A2D6DC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53FFDFD280C54A96ADCC8114 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		826B8D3B4F2D4AD69474E07E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FA1A7FE4BF548E6BEF5FDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0BD2E75AAC4CDDBE05E183 /* AssembleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssembleView.swift; sourceTree = "<group>"; };
+		D778EAF973E24673AB267170 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		D7C4CE93260D4F709CD8FBC4 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		F355F8182F26478EB0E24B08 /* StoryMakerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMakerAppApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E439A82E5E5077000E8DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E439AB2E5E508E000E8DF5 /* TaskRunner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E439A92E5E508E000E8DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E417217686745429A4F5C06 /* StoryMakerApp */ = {
+			isa = PBXGroup;
+			children = (
+				45E439AC2E5EABD1000E8DF5 /* EngineRunner.swift */,
+				F355F8182F26478EB0E24B08 /* StoryMakerAppApp.swift */,
+				826B8D3B4F2D4AD69474E07E /* ContentView.swift */,
+				53FFDFD280C54A96ADCC8114 /* DashboardView.swift */,
+				D778EAF973E24673AB267170 /* StoryView.swift */,
+				D7C4CE93260D4F709CD8FBC4 /* ImagesView.swift */,
+				077393AF68F14BE08973D0D8 /* TTSView.swift */,
+				9E0BD2E75AAC4CDDBE05E183 /* AssembleView.swift */,
+				30673014A23B40A98ABC58D5 /* PublishView.swift */,
+				223BE763922744D6BCD009B7 /* SettingsView.swift */,
+				2634F9BB465D47F0AD515AFD /* AppCommands.swift */,
+				4E7F77AECEDD4EB9A2D6DC60 /* Assets.xcassets */,
+				8FA1A7FE4BF548E6BEF5FDE9 /* Info.plist */,
+				E8D3C345D44F47F5B7EC972F /* Models */,
+			);
+			path = StoryMakerApp;
+			sourceTree = "<group>";
+		};
+		C89C3DA584134AD8974375C5 = {
+			isa = PBXGroup;
+			children = (
+				9E417217686745429A4F5C06 /* StoryMakerApp */,
+				45E439A92E5E508E000E8DF5 /* Frameworks */,
+				D5B029D9C333408AB986DCF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B029D9C333408AB986DCF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F6E3377B78495AB2503509 /* StoryMakerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D3C345D44F47F5B7EC972F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45E4399C2E5E449D000E8DF5 /* Job.swift */,
+				45E4399D2E5E449D000E8DF5 /* JobQueue.swift */,
+				45E4399E2E5E449D000E8DF5 /* KeychainHelper.swift */,
+				45E4399F2E5E449D000E8DF5 /* SettingsStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBCCF27961534591BD762AC2 /* StoryMakerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47EDC055EFF4338AC49459E /* Build configuration list for PBXNativeTarget "StoryMakerApp" */;
+			buildPhases = (
+				2E1C12D7463A4615B70AD599 /* Sources */,
+				000B5A98D4A9473BA3ADC87B /* Resources */,
+				45E439A82E5E5077000E8DF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryMakerApp;
+			productName = StoryMakerApp;
+			productReference = 04F6E3377B78495AB2503509 /* StoryMakerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		576A409AC6074097A3FB520E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = E47EDC055EFF4338AC49459E /* Build configuration list for PBXNativeTarget "StoryMakerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C89C3DA584134AD8974375C5;
+			packageReferences = (
+				45E439A62E5E4DE6000E8DF5 /* XCLocalSwiftPackageReference "../../appstories" */,
+			);
+			productRefGroup = D5B029D9C333408AB986DCF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBCCF27961534591BD762AC2 /* StoryMakerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000B5A98D4A9473BA3ADC87B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA3B458924471F89BC3F33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1C12D7463A4615B70AD599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE0C2AA0534CBE95876B9B /* StoryMakerAppApp.swift in Sources */,
+				45DD24F77170431BBBF326D8 /* ContentView.swift in Sources */,
+				37E7CBEBD0C14D6791F7A58E /* DashboardView.swift in Sources */,
+				FDC3F7DCFA2B4E698957A431 /* StoryView.swift in Sources */,
+				45E439A02E5E449D000E8DF5 /* SettingsStore.swift in Sources */,
+				45E439A12E5E449D000E8DF5 /* Job.swift in Sources */,
+				45E439A22E5E449D000E8DF5 /* KeychainHelper.swift in Sources */,
+				45E439A32E5E449D000E8DF5 /* JobQueue.swift in Sources */,
+				45E439AD2E5EABE0000E8DF5 /* EngineRunner.swift in Sources */,
+				FD5875BF76BD4A04AE1D78F8 /* ImagesView.swift in Sources */,
+				A34A5F1D44794FE99D9C952D /* TTSView.swift in Sources */,
+				60771942AAC44E0BAE42C16E /* AssembleView.swift in Sources */,
+				026DC806A59A4D8597070E56 /* PublishView.swift in Sources */,
+				D90E2AE87804414AA70A3823 /* SettingsView.swift in Sources */,
+				DADF52293D984416B7CFB0A4 /* AppCommands.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B955008F166476896004B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StoryMakerApp/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StoryMakerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E5C19D3B9FEA433D8DB3EFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StoryMakerApp/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StoryMakerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E47EDC055EFF4338AC49459E /* Build configuration list for PBXNativeTarget "StoryMakerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B955008F166476896004B0B /* Debug */,
+				E5C19D3B9FEA433D8DB3EFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		45E439A62E5E4DE6000E8DF5 /* XCLocalSwiftPackageReference "../../appstories" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../appstories;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45E439AA2E5E508E000E8DF5 /* TaskRunner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45E439A62E5E4DE6000E8DF5 /* XCLocalSwiftPackageReference "../../appstories" */;
+			productName = TaskRunner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 576A409AC6074097A3FB520E /* Project object */;
+}

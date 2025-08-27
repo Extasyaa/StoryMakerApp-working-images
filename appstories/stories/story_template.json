@@ -1,0 +1,58 @@
+{
+  "title": "Ночной рассказ: Дом на краю леса",
+  "language": "ru-RU",
+  "target_duration_minutes": 30,
+  "beats": [
+    {
+      "name": "hook",
+      "narration_text": "Представьте себе дом на краю леса...",
+      "image_prompt": "moody night forest house, cinematic lighting, mist, 16:9",
+      "target_seconds": 120,
+      "sfx_tags": [
+        "wind",
+        "owls",
+        "floor_creak"
+      ]
+    },
+    {
+      "name": "setup",
+      "narration_text": "История началась, когда ...",
+      "image_prompt": "vintage living room, candle light, subtle shadows, 16:9",
+      "target_seconds": 420,
+      "sfx_tags": [
+        "clock_tick"
+      ]
+    },
+    {
+      "name": "build",
+      "narration_text": "С каждой ночью ...",
+      "image_prompt": "narrow corridor, dim light, suspenseful atmosphere, 16:9",
+      "target_seconds": 720,
+      "sfx_tags": [
+        "wind"
+      ]
+    },
+    {
+      "name": "climax",
+      "narration_text": "Когда дверь распахнулась...",
+      "image_prompt": "door opens to dark forest, fog, cinematic, 16:9",
+      "target_seconds": 540,
+      "sfx_tags": [
+        "door_creak",
+        "whoosh"
+      ]
+    },
+    {
+      "name": "resolution",
+      "narration_text": "На рассвете стало ясно...",
+      "image_prompt": "soft sunrise through trees, hopeful tone, 16:9",
+      "target_seconds": 600,
+      "sfx_tags": []
+    }
+  ],
+  "music_policy": {
+    "use_music": true,
+    "ducking_db": -12.0
+  },
+  "images_per_beat": 2
+}

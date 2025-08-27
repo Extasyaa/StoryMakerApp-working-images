@@ -1,0 +1,17 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+COMFY_BASE_URL = os.getenv("COMFY_BASE_URL", "http://127.0.0.1:8188")
+COMFY_WORKFLOW_PATH = os.getenv("COMFY_WORKFLOW_PATH", "./comfy/workflow_api_example.json")
+PIPER_BIN = os.getenv("PIPER_BIN", "./bin/piper")
+PIPER_MODEL = os.getenv("PIPER_MODEL", "./piper_models/ru_RU-ruslan/ru_RU-ruslan-medium.onnx")
+PIPER_SPEAKER_ID = int(os.getenv("PIPER_SPEAKER_ID", "0"))
+PIPER_NOISE_SCALE = float(os.getenv("PIPER_NOISE_SCALE", "0.667"))
+PIPER_LENGTH_SCALE = float(os.getenv("PIPER_LENGTH_SCALE", "1.0"))
+PIPER_NOISE_W = float(os.getenv("PIPER_NOISE_W", "0.8"))
+MUSIC_DIR = os.getenv("MUSIC_DIR", "./assets/music")
+SFX_DIR = os.getenv("SFX_DIR", "./assets/sfx")
+FPS = int(os.getenv("FPS", "30"))
+RESOLUTION = os.getenv("RESOLUTION", "1920x1080")
+YOUTUBE_CLIENT_SECRETS = os.getenv("YOUTUBE_CLIENT_SECRETS", "./secrets/client_secret.json")
+YOUTUBE_CATEGORY_ID = os.getenv("YOUTUBE_CATEGORY_ID", "24")
